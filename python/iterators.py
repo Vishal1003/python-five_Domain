@@ -1,3 +1,5 @@
+# iterators are the basis of for loop. As the name suggests it is used for iteration over the lists/objects
+
 arr = [1, 2, 3, 4, 5, 6]
 
 my_itr = iter(arr)

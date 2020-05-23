@@ -1,3 +1,5 @@
+# genrators are normal function with multiple return statements
+
 def my_gen():
     n = 1
     print("this is the 1st ierator")
