@@ -10,8 +10,8 @@ print(my_itr.__next__())
 
 # Internal implementation of for loop in python
 my_list = [1, 2, 3, 4, 5]
-for element in my_list:
-    pass
+# for element in my_list:
+#     pass
 
 iter_obj = iter(my_list)
 
