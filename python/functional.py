@@ -12,6 +12,12 @@ print('----------------------')
 
 # reduce function
 from functools import reduce
-
 total = reduce(lambda a, x: x + a, [0, 1, 2, 3, 4, 5])
 print(total)
+
+print('----------------------')
+
+# filter function
+arr = [1, 2, 3, 4, 5, 6]
+for i in filter(lambda x: x > 5, arr):
+    print(i)
