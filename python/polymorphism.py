@@ -1,4 +1,4 @@
-# multiple forms
+# POLYMORPHISM : Taking multiple forms (same methods differentiated by objects)
 
 class Duck :
     def quack(self):
