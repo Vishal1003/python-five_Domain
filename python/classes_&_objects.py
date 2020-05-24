@@ -40,8 +40,8 @@ class A:
     def f(self, x):
         print(2*x)
 
-    @classmethod
-    def g(self, name):
+    @staticmethod
+    def g(name):
         print("Hello {}!!!".format(name))
 
 # # Creating class object and then calling =>
@@ -50,4 +50,4 @@ class A:
 
 # Auto instance calling =>
 A.g('Vishal')
-A.f(2)
+A.f(2)  # Don't bind anything
