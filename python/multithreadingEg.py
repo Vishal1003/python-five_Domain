@@ -1,11 +1,9 @@
 # Let's say you want to download several pages of a website and compile them into a single phase
-
 import requests
 from threading import Thread
 from queue import Queue
 
 q = Queue(maxsize=20)
-
 
 def put_page(page_num):
     q.put(requests.get('http://google.com/page_%s.html' %page_num))
