@@ -1,2 +1,3 @@
-ans_instance = outer_fun(ordinary)
-# ans_instance()
+# Reading the file line by line
+        for line in fp:
+            print(line)
