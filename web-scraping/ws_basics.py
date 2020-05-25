@@ -13,3 +13,11 @@ STEPS:
 6. Store the data in the required format 
 
 """
+## Writing the code :
+"""
+    We will be using the following libararies:
+    1. Selenium : It is web testing libarary. It is used to automate browser activities.
+    2. BeautifulSoup : Beautiful Soup is a python package for parsing HTML and XML documents.
+
+"""
+
