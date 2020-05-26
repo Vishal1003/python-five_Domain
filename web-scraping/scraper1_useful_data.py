@@ -1,3 +1,5 @@
+# Scarpping names of 100 greatest mathematicians
+
 from bs4 import BeautifulSoup
 import requests
 
