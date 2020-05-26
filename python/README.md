@@ -88,6 +88,34 @@ Python has many built-in functions like print(), input(), len(). Besides built-i
 
 Using the def statement is the most common way to define a function in python. This statement is a so called single clause compound statement with the following syntax:
 
-`def function_name(parameters):`
-    `statements `
+    def function_name(parameters):
+        statements
+
+## FUNCTIONAL PROGRAMMING:
+
+Functional programming decomposes a problem into a set of functions. Ideally, functions only take inputs and produce outputs, and don’t have any internal state that affects the output produced for a given input. functional techniques common to many languages: such as lambda, map, reduce.
+
+## DECORATORS:
+
+#### A decorator takes in a function, adds some functionality and returns it. In this article, you will learn how you can create a decorator and why you should use it.
+
+What are decorators in Python?
+Python has an interesting feature called decorators to add functionality to an existing code. This is also called metaprogramming as a part of the program tries to modify another part of the program at compile time.
+
+### COMPREHENSIONS:
+
+➢ LIST COMPREHENSION:
+
+A list comprehension creates a new list by applying an expression to each element of an iterable. The
+most basic form is:
+    `[ <expression> for <element> in <iterable> ]`
+
+
+➢ DICTONARY COMPREHENSION:
+
+A dictionary comprehension is similar to a list comprehension except that it produces a dictionary object
+instead of a list.
+
+
+
 
