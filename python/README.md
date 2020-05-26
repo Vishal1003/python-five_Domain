@@ -23,7 +23,7 @@ variable.
 6. Tuple Data Type
 
 
-## Comment and User Input:
+## Comments and User Input:
 
 ➢ Comments are used to explain code when the basic code itself isn't clear
 1. Single line comments
@@ -102,13 +102,13 @@ Functional programming decomposes a problem into a set of functions. Ideally, fu
 What are decorators in Python?
 Python has an interesting feature called decorators to add functionality to an existing code. This is also called metaprogramming as a part of the program tries to modify another part of the program at compile time.
 
-### COMPREHENSIONS:
+## COMPREHENSIONS:
 
 ➢ LIST COMPREHENSION:
 
 A list comprehension creates a new list by applying an expression to each element of an iterable. The
 most basic form is:
-    `[ <expression> for <element> in <iterable> ]`
+    [ <expression> for <element> in <iterable> ]
 
 
 ➢ DICTONARY COMPREHENSION:
@@ -117,5 +117,23 @@ A dictionary comprehension is similar to a list comprehension except that it pro
 instead of a list.
 
 
+## ITERATORS:
 
+Iterators are everywhere in Python. They are elegantly implemented within for loops, comprehensions, generators etc. but hidden in plain sight.
+Iterator in Python is simply an object that can be iterated upon. An object which will return data,
+one element at a time.
+Technically speaking, Python iterator object must implement two special methods, __iter__()
+and __next__(), collectively called the iterator protocol.
 
+## OS MODULES:
+
+Given a local directory with the following contents:
+└── dir1
+|── subdir1
+└── subdir2
+We want to create the same subdir1, subdir2 under a new directory dir2, which does not exist yet we generally use this module. It has many methods defined in it such as to get current working directory, to join our path to a directory etc.
+
+## COLLECTIONS:
+
+The built-in collections package provides several specialized, flexible collection types that are both high performance and provide alternatives to the general collection types of dict, list, tuple and set.
+The module also defines abstract base classes describing different types of collection functionality (such as MutableSet and ItemsView).
