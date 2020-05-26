@@ -4,7 +4,7 @@
 
 NumPy is a Python package which stands for ‘Numerical Python’. It is the core library for scientific computing, which contains a powerful n-dimensional array object, provide tools for integrating C, C++ etc. It is also useful in linear algebra, random number capability etc. NumPy array can also be used as an efficient multi-dimensional container for generic data.
 
-### Python NumPy Array v/s List
+### => Python NumPy Array v/s List
 We use python numpy array instead of a list because of the below three reasons:
 
 1. Less Memory
