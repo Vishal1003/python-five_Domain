@@ -79,3 +79,15 @@ ALL THE FOLLOWING DS ARE DISCUSSED IN THE MODULES ITSELF ALONG WITH THEIR IMPLEM
 ### 5. HEAPS
 
 ### 6. PRIORITY QUEUE
+
+## FUNCTIONS:
+
+Functions in Python provide organized, reusable and modular code to perform a set of specific actions. Functions simplify the coding process, prevent redundant logic, and make the code easier to follow. 
+
+Python has many built-in functions like print(), input(), len(). Besides built-ins you can also create your own functions to do more specific jobs—these are called user-defined functions. 
+
+Using the def statement is the most common way to define a function in python. This statement is a so called single clause compound statement with the following syntax:
+
+`def function_name(parameters):`
+    `statements `
+
