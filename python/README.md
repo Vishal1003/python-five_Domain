@@ -128,9 +128,9 @@ and __next__(), collectively called the iterator protocol.
 ## OS MODULES:
 
 Given a local directory with the following contents:
-└── dir1
-|── subdir1
-└── subdir2
+        └── dir1
+        |── subdir1
+        └── subdir2
 We want to create the same subdir1, subdir2 under a new directory dir2, which does not exist yet we generally use this module. It has many methods defined in it such as to get current working directory, to join our path to a directory etc.
 
 ## COLLECTIONS:
