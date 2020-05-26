@@ -7,13 +7,10 @@ import sys
 # List vs Numpy
 
 # 1. Numpy takes less memory
-
-# => List of 1000 size
 print('=> SPACE COMPARISON')
 S = range(1000)
 print(sys.getsizeof(S)*len(S))
 
-# => Numpy array of of 1000 size
 D = np.arange(1000)
 print(D.size*D.itemsize)
 
