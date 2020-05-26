@@ -56,7 +56,7 @@ eg: Boolean Operator: AND, OR, NOT
 
 ### 1. LIST
     
-    The Python List is a general data structure widely used in Python programs. They are found in other languages,
+The Python List is a general data structure widely used in Python programs. They are found in other languages,
 often referred to as dynamic arrays. They are both mutable and a sequence data type that allows them to be indexed
 and sliced. The list can contain different types of objects, including other list objects.
 
@@ -66,7 +66,7 @@ and sliced. The list can contain different types of objects, including other lis
 
 ### 2. DICTONARY
    
-    A dictionary is an example of a key value store also known as Mapping in Python. It allows you to store and retrieve elements by referencing a key. As dictionaries are referenced by key, they have very fast lookups. As they are primarily used for referencing items by key, they are not sorted.
+A dictionary is an example of a key value store also known as Mapping in Python. It allows you to store and retrieve elements by referencing a key. As dictionaries are referenced by key, they have very fast lookups. As they are primarily used for referencing items by key, they are not sorted.
 
 (examples in python files)
 
