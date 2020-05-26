@@ -1,4 +1,4 @@
-# Python (beginner's guide)
+# Python (Beginner's guide)
  
 Python is a general-purpose interpreted, interactive, object-oriented, and high-level programming language.
 This repository gives enough understanding on Python programming language. It also consists of brief introduction to the application of python in real life world. Any person with some basic understanding of python can use this repo to get some more idea of what this language can do.
