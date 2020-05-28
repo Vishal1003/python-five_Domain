@@ -43,8 +43,8 @@ elo_columns = ["elo_i", "elo_n", "opp_elo_i", "opp_elo_n"]
 df.drop(elo_columns, inplace= True, axis = 1)
 
 
-print(df["game_location"].nunique())
-print(df["game_location"].value_counts())
+# print(df["game_location"].nunique())
+# print(df["game_location"].value_counts())
 
 
 # ===================== Important ==============================
@@ -53,5 +53,19 @@ print(df["game_location"].value_counts())
 ## Converting game location from object to categorical
 
 df["game_location"] = pd.Categorical(df["game_location"])
-print(df["game_location"].dtype)
+# print(df["game_location"].dtype)
 
+# Cleaning data
+"""
+Naive Approach  
+rows_with_noNull = nba.dropna()
+print(rows_with_noNull)
+"""
+
+data_with_dfVal = nba.copy()
+data_with_dfVal["notes"].fillna(
+    value = "NaN",
+    inplace = True
+)
+
+print(data_with_dfVal["notes"].describe())
