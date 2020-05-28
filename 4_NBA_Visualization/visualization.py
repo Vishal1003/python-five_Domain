@@ -70,7 +70,7 @@ pd.set_option("display.max.column", None)
 pd.set_option("display.precision", 2)
 
 
-# print(nba.describe(include = np.object))
+print(nba.describe(include = np.object))
 # print("====================================")
 
 # print(nba['team_id'].value_counts())
@@ -84,7 +84,26 @@ pd.set_option("display.precision", 2)
 # Getting all the teams of one kind (eg: Lakers)
 print(nba.loc[nba['fran_id'] == "Lakers", "team_id"].value_counts())
 
+"""
+LAL    5078
+MNL     946
+Name: team_id, dtype: int64
 
+===>> From above data one can assume or guess that MNL have stopped playing since their game is very less.
+ So now we will be checking the time.
+"""
+
+print("===========================")
+
+# print(nba.loc[nba['team_id'] == "MNL", "date_game"].min())  # first date
+# print(nba.loc[nba['team_id'] == "MNL", "date_game"].max())  # last date
+
+"""
+From above we get the MNL played only for 10 yrs.
+"""
+
+# Total points of BOS
+print(nba.loc[nba['team_id'] == 'BOS','pts'].sum())
 
 
 
