@@ -30,9 +30,28 @@ df = nba.copy()
 
 # Adding new col
 df["difference"] = df.pts - df.opp_pts 
-print(df.shape)
+# print(df.shape)
+# print(df["difference"].max())
 
-print(df["difference"].max())
+# rename_data = df.rename(columns = {"game_result" : "result", "game_location" : "location"})
+# print(rename_data.info())
 
 
+
+# delete some columns
+elo_columns = ["elo_i", "elo_n", "opp_elo_i", "opp_elo_n"]
+df.drop(elo_columns, inplace= True, axis = 1)
+
+
+print(df["game_location"].nunique())
+print(df["game_location"].value_counts())
+
+
+# ===================== Important ==============================
+
+# Converting the data in categorical data
+## Converting game location from object to categorical
+
+df["game_location"] = pd.Categorical(df["game_location"])
+print(df["game_location"].dtype)
 
