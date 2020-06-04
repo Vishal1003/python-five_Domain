@@ -21,3 +21,21 @@ Types :
 4. Support Vector for Regression (SVR)
 5. Decision Tree Classification
 6. Random Forest Classification
+
+### SIMPLE LINEAR REGRESSION
+
+`y = b0 + b1*x1`
+
+y : Dependent Variable
+x : Independent Variable
+b1 : slope 
+
+     Salary Problem :
+    `Salary = b0 + b1*Experience`
+
+*BEST FITTING LINE* : `minimum of square(sum(y - y^))` (Ordinary Least Square Method)
+
+
+
+
+
