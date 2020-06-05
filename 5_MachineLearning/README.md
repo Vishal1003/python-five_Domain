@@ -42,11 +42,14 @@ Feature Scaling is to bring all the data in a particular scale. This will help t
           
 
 *Fitting Simple Linear Regression to the training set* <br/>
-          `from sklearn.linear_model import LinearRegression
+
+          from sklearn.linear_model import LinearRegression
           regressor = LinearRegression()
-          regressor.fit(X_train, Y_train)`
+          regressor.fit(X_train, Y_train)
+
 <br/>*Predicting the Test set results*<br/>
-          `y_pred = regressor.predict(X_test)`
+
+          y_pred = regressor.predict(X_test)
 
 
 
