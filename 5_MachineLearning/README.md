@@ -41,7 +41,7 @@ Feature Scaling is to bring all the data in a particular scale. This will help t
           X(norm) = (X- min(X))/(max(X) - min(X))
           
 
-*Fitting Simple Linear Regression to the training set*
+*Fitting Simple Linear Regression to the training set* <br/>
           `from sklearn.linear_model import LinearRegression
           regressor = LinearRegression()
           regressor.fit(X_train, Y_train)`
