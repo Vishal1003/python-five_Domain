@@ -35,6 +35,11 @@ b1 : slope
 
 *BEST FITTING LINE* : `minimum of square(sum(y - y^))` (Ordinary Least Square Method)
 
+Feature Scaling is to bring all the data in a particular scale. This will help to get accurate results. Feature Scaling in python is generally taken care on it's own though sometimes we need to explicitly do that. Feature Scaling can be done using standardization or normalization
+
+          X(std) = (X - mean(X))/Standard Deviation(X)
+          X(norm) = (X- min(X))/(max(X) - min(X))
+
 
 
 
