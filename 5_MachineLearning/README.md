@@ -51,6 +51,19 @@ Feature Scaling is to bring all the data in a particular scale. This will help t
 
           y_pred = regressor.predict(X_test)
 
+### MULTIPLE LINEAR REGRESSION
+
+`y = b0 + b1*x1 + b2*x2 + ...bn*xn`
+
+*Assumptions*
+1. Linearity
+2. Homoscedasticity
+3. Multivariate normality
+4. Independance of errors
+5. Lack of multicollinearity
+
+*While Creating Dummy variables always omit one dummy variable - else it is possible to get into dummy var trap*
+
 
 
 
