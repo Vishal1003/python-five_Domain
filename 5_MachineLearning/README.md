@@ -65,6 +65,8 @@ Feature Scaling is to bring all the data in a particular scale. This will help t
 *While Creating Dummy variables always omit one dummy variable - else it is possible to get into dummy var trap*
 
 
+To be continued...
+
 
 
 
